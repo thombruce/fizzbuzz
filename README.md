@@ -1,7 +1,13 @@
 # FizzBuzz
 
+## Installation
+
+```sh
+npm install -g
+```
+
 ## Usage
 
 ```sh
-node index.js
+fizzbuzz
 ```

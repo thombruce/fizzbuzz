@@ -4,5 +4,8 @@
   "description": "FizzBuzz!",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "bin": {
+    "fizzbuzz": "./index.js"
+  }
 }
