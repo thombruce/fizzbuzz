@@ -1,11 +1,15 @@
 #!/usr/bin/env node
 
-const terms = {
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
+const argv = yargs(hideBin(process.argv)).argv
+
+const terms = argv.terms || {
   3: 'Fizz',
   5: 'Buzz'
 }
-const from = 1
-const to = 100
+const from = isNaN(argv.from) ? 1 : argv.from
+const to = isNaN(argv.to) ? 100 : argv.to
 
 for (i = from; i <= to; i++) {
   let phrase = ''
