@@ -1,9 +1,17 @@
 #!/usr/bin/env node
 
-for (i = 1; i <= 100; i++) {
+const terms = {
+  3: 'Fizz',
+  5: 'Buzz'
+}
+const from = 1
+const to = 100
+
+for (i = from; i <= to; i++) {
   let phrase = ''
-  if (i % 3 == 0) { phrase += 'Fizz' }
-  if (i % 5 == 0) { phrase += 'Buzz' }
+  for (const factor in terms) {
+    if (i % factor == 0) { phrase += terms[factor] }
+  }
   if (phrase == '') { phrase += i }
   console.log(phrase)
 }
