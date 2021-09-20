@@ -6,6 +6,9 @@ const defaultFrom = 1
 const defaultTo = 100
 
 module.exports = function (terms = defaultTerms, from = defaultFrom, to = defaultTo) {
+  from = parseInt(from)
+  to = parseInt(to)
+
   let values = []
 
   for (i = from; i <= to; i++) {
