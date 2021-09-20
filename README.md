@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-npm install -g
+npm install -g https://github.com/thombruce/fizzbuzz.git
 ```
 
 ## Usage
