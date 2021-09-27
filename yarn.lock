@@ -2323,6 +2323,9 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
+"@thombruce/fizzbuzz@../fizzbuzz":
+  version "0.0.0"
+
 "@thombruce/nuxt-taxonomies@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@thombruce/nuxt-taxonomies/-/nuxt-taxonomies-0.2.0.tgz#342f87cb4c34086345e6f7842c56c6364fea678e"
@@ -5713,9 +5716,6 @@ find-up@^4.0.0, find-up@^4.1.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
-
-fizzbuzz-monorepo@../fizzbuzz:
-  version "0.0.0"
 
 flat@^5.0.0:
   version "5.0.2"
