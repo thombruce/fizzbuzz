@@ -1,0 +1,14 @@
+{
+  "name": "@thombruce/fizzbuzz",
+  "version": "0.1.0",
+  "description": "FizzBuzz!",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "fizzbuzz": "./cli.js"
+  },
+  "dependencies": {
+    "yargs": "^17.1.1"
+  }
+}

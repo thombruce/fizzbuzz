@@ -1,14 +1,14 @@
 {
-  "name": "@thombruce/fizzbuzz",
-  "version": "0.1.0",
-  "description": "FizzBuzz!",
-  "main": "index.js",
+  "name": "fizzbuzz-monorepo",
+  "version": "0.0.0",
+  "author": "Thom Bruce <thom@thombruce.com>",
   "license": "MIT",
-  "private": true,
-  "bin": {
-    "fizzbuzz": "./cli.js"
-  },
-  "dependencies": {
-    "yargs": "^17.1.1"
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
