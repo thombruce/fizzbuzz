@@ -29,7 +29,7 @@ div.max-w-prose.m-auto
 </template>
 
 <script>
-const FizzBuzz = require('@thombruce/fizzbuzz')
+const FizzBuzz = require('@thombruce/fizzbuzz/packages/fizzbuzz')
 export default {
   data () {
     return {
