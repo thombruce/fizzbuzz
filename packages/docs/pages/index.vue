@@ -1,9 +1,10 @@
 <template lang='pug'>
-div.max-w-prose.m-auto
+div.max-w-prose.m-auto.p-4
   div
     h3 Ruleset
+
     div(v-for='term in terms')
-      .flex.flex-row.gap-x-4
+      .flex.gap-x-4(class='flex-col sm:flex-row')
         .form-control.flex-1
           label.label
             span.label-text Factor
@@ -14,7 +15,7 @@ div.max-w-prose.m-auto
           input.input.input-bordered(type='text' v-model='term.phrase')
     button.btn(v-on:click='addTerm') Add Rule
 
-  .flex.flex-row.gap-x-4
+  .flex.gap-x-4(class='flex-col sm:flex-row')
     .form-control.flex-1
       label.label
         span.label-text From
