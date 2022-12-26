@@ -4,6 +4,9 @@
   "author": "Thom Bruce <thom@thombruce.com>",
   "license": "MIT",
   "private": "true",
+  "bin": {
+    "fizzbuzz": "packages/fizzbuzz/cli.js"
+  },
   "workspaces": [
     "packages/*"
   ],
